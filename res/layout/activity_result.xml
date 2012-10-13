@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    <!-- 初回表示 -->
+	    <TextView
+		    android:id="@+id/firstView"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/first_time" />
+
+	    <!-- ２回目以降の表示 -->
+		<LinearLayout
+		    android:id="@+id/resultView"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+
+		    <!-- あなたの -->
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/result_anatano" />
+
+			<!-- 勝ち or 負け -->
+		    <TextView
+		        android:id="@+id/textResult"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="36sp" />
+
+
+		    <!-- です -->
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/result_desu" />
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+	<!-- 閉じるボタン -->
+	<Button
+        android:id="@+id/buttonEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonEnd" />
+</LinearLayout>

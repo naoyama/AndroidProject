@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">ぼけ防止じゃんけん</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ぼけ防止じゃんけん</string>
+    <string name="title_activity_result">"じゃんけん結果"</string>
+
+    <string name="greeting_morning">"おはようございます"</string>
+    <string name="greeting_evening">"こんにちは"</string>
+    <string name="greeting_nighting">"こんばんは"</string>
+
+    <string name="guidance">"手を選んでタッチしてください"</string>
+
+    <string name="result_anatano">"あなたの"</string>
+    <string name="result_win">"勝ち"</string>
+    <string name="result_loose">"負け"</string>
+    <string name="result_aiko">"あいこ"</string>
+    <string name="result_desu">"です"</string>
+    <string name="first_time">"あなたの出した手を覚えました。\n次回はこの手に対してじゃんけんすることになります"</string>
+    <string name="buttonEnd">"閉じる"</string>
+
+
+</resources>
